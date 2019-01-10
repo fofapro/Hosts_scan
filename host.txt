@@ -1,0 +1,3 @@
+admin.xxxx.com
+git.xxxx.com
+admin.u.xxx.com
