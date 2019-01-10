@@ -5,4 +5,6 @@ Python => 3.X
 
 python IP_hosts_scan.py
 
+读取 ip.txt 和 hosts.txt 遍历匹配访问
+
 ![效果图](https://raw.githubusercontent.com/r35tart/Hosts_scan/master/ok.png)
