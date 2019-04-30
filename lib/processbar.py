@@ -17,9 +17,9 @@ class DummyFile(object):
 class ProcessBar:
     def __init__(self,total):
         if platform.system()=="Windows":
-            self.pbar = tqdm(total=total,ncols=80,bar_format='{l_bar}{bar}|{postfix}/{n_fmt}/{total_fmt} [{elapsed}<{remaining},''{rate_fmt}{postfix}]')
+            self.pbar = tqdm(total=total,ncols=80,bar_format='{l_bar}{bar}|{postfix}/{n_fmt}/{total_fmt} [{elapsed}<{remaining},''{rate_fmt}]')
         else:
-            self.pbar = tqdm(total=total,bar_format='{l_bar}{bar}|{postfix}/{n_fmt}/{total_fmt} [{elapsed}<{remaining},''{rate_fmt}{postfix}]')
+            self.pbar = tqdm(total=total,bar_format='{l_bar}{bar}|{postfix}/{n_fmt}/{total_fmt} [{elapsed}<{remaining},''{rate_fmt}]')
 
         self.cur_cnt = 0
         self.suc_cnt = 0
