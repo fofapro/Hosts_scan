@@ -5,7 +5,7 @@
 import itertools
 import signal
 import threading
-from multiprocessing.dummy import Pool,active_children,shutdown
+from multiprocessing.dummy import Pool
 from time import sleep
 
 import requests
